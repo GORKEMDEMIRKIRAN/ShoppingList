@@ -1,0 +1,139 @@
+
+
+
+<!-- SHOPPING LIST APPLICATION -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING LIST APPLICATION</title>
+
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+
+    <!-- FONT-AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- CSS REGION -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- GOOGLE FONTS CDN -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- JAVASCRIPT REGION -->
+    <script src="shopping.js"></script>
+
+    <!-- BOOTSTRAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous">
+    </script>
+
+
+
+
+
+    <div class="container card my-3 shadow" id="shoppingList">
+        <h2 class="text-center my-4 text-white">SHOPPING LIST</h2>
+        <!-- ========================================= -->
+        <!-- INPUT SECTION -->
+        <div class="card inputs">
+            <div class="container text-center">
+                <form action="" id="InputForm" name="InputForm">
+                    <div class="row g-0">
+                        <div class="col-11">
+                            <input type="text" name="input" id="InputproductName" class="form-control" placeholder="Add Elements">
+                        </div>
+                        <div class="col-1">
+                            <button class="btn btn-primary" id="InputproductPlus">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- ========================================= -->
+        <!-- BUTTONS SECTION -->
+         <div class="buttons" id="buttons">
+
+            <!-- Yok olacak bölüm -->
+            <!-- ================ -->
+            <!-- <div class="container buttonsList">
+                <form action="" id="buttonsForm" name="PressButton">
+                    <div class="container me-0">
+                        <button id="1" type="button" class="btn" name="All">All</button>
+                        <button id="2" type="button" class="btn" name="Incomplete">Incomplete</button>
+                        <button id="3" type="button" class="btn" name="Completed">Completed</button>
+                    </div>
+                </form>
+            </div> -->
+            <!-- ================ -->
+
+         </div>
+        <!-- ========================================= -->
+        <!-- PRODUCTS SECTION -->
+        <div class="products" id="products">
+
+            <!-- yok olacak bölümler -->
+            <!-- ================ -->
+            <div class="NoproductsList" id="NoproductsList">
+                <!-- ================ -->
+                <div class="NoproductItem rounded">
+                    <label for="" name="NoItems" class="form-check-label">No Items</label>
+                </div>
+                <!-- ================ -->
+            </div>
+            <!-- ========================== -->
+            <ul class="productsList" id="productsList">
+
+                <!-- ================ -->
+                <!-- <li class="productItem none d-flex justify-content-between align-items-center">
+                    <form action="" id="${number}" class="d-flex align-items-center w-100">
+                        <input type="checkbox" name="productSelect" id="${number}" class="form-check-input ${checked}">
+                        <label for="${number}" id="${number}" name="productName" class="form-check-label">Yumurta</label>
+                        <button type="button" name="productClose" class="btn btn-danger btn-sm me-0">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </form>
+                </li> -->
+                <!-- ================ -->
+
+
+            </ul>
+            <!-- ========================== -->
+        </div>
+        <!-- ========================================= -->
+        <!-- Yok olacak bölümler -->
+        <!-- ================ -->
+        <div class="clear my-3" id="clear">
+
+            <!-- <div class="container">
+                <button class="btn btn-outline-danger" id="clearButton">Clear</button>
+            </div> -->
+
+        </div>
+        <!-- ================ -->
+
+        <!-- ========================================= -->
+
+    </div>
+
+    
+</body>
+</html>

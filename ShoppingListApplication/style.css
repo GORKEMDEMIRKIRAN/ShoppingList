@@ -1,0 +1,58 @@
+
+
+/* SHOPPING LIST APPLICATION */
+/* CSS REGION */
+
+/* BACKGROUND */
+#shoppingList{
+    background-color:rgb(85, 102, 120);
+}
+/* FONTS */
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.inputs,.buttonsList,.NoproductsList{
+    margin: 10px;
+    padding: 20px;
+}
+.productItem{
+    margin: 10px;
+    padding: 10px;
+    border-width: 2px;
+    background-color:rgb(172, 156, 115);
+    border-radius: 10px;
+    display: flex;
+}   
+.productColor{
+    background-color:rgb(125, 110, 89) !important;
+}
+.productItem form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}    
+.NoproductItem{
+    margin: 10px;
+    padding: 10px;
+    border-width: 1px;
+    background-color:rgb(140, 63, 63);
+}
+/* Butonların rengi */
+.buttons .btn{
+    background-color:dimgray;
+    color: white;
+}
+/* buton seçilme sonucu butonları rengi */
+.btnColor{
+    /* !important kullanarak önceliği artırın */
+    background-color: blue !important;
+    border: 3px !important;
+}
+/* Text üstünü çizme durumu */
+.line-through {
+    text-decoration: line-through;
+  }
