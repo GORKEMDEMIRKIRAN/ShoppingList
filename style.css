@@ -5,7 +5,7 @@
 
 /* BACKGROUND */
 #shoppingList{
-    background-color:rgb(85, 102, 120);
+    background-color:rgb(171, 168, 168);
 }
 /* FONTS */
 .kanit-light {
@@ -22,12 +22,13 @@
     margin: 10px;
     padding: 10px;
     border-width: 2px;
-    background-color:rgb(172, 156, 115);
+    background-color:rgb(185, 197, 54);
     border-radius: 10px;
     display: flex;
 }   
 .productColor{
-    background-color:rgb(125, 110, 89) !important;
+    background-color:rgb(155, 190, 138) !important;
+    color: white;
 }
 .productItem form{
     display: flex;
@@ -39,7 +40,8 @@
     margin: 10px;
     padding: 10px;
     border-width: 1px;
-    background-color:rgb(140, 63, 63);
+    background-color:rgb(188, 71, 71);
+    color: white;
 }
 /* Butonların rengi */
 .buttons .btn{
