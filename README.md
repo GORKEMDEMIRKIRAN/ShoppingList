@@ -4,6 +4,8 @@ In this project, a shopping list was prepared with javascript.
 
 ### 1-SHOPPING LIST APPLICATION
 
+<a href=""></a>
+
 #### In this section, I defined functions in the JavaScript part by accessing each operation via HTML name, id, and class attributes. Then, I structured the workflow of the product listing section based on the clicked buttons, creating workflow functions to build the product listing section.
 
 #### I have defined which sections do what work in html, css, javascript files in the comment lines.
